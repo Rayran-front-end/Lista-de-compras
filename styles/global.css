@@ -102,11 +102,7 @@ ul {
     display: grid;
 }
 
-@media (max-width:25.4375rem) {
-    #container {
-        width: 100%;
-        margin: 0 auto;
-    }
+@media (max-width:28.4375rem) {
 
     h1 {
         font-size: 1rem;
