@@ -1,8 +1,6 @@
 const btnClick = document.querySelector("#enviar")
 const addInput = document.querySelector("#adding")
 const output = document.querySelector(".output")
-// const ulList = document.querySelector(".list-itens")
-
 
 function removeItens() {
    const remove = document.createElement("div")
@@ -63,12 +61,11 @@ function addingItens() {
       divItens.append(inputCheck, spanResult)
       liList.append(divItens,imgRemove)
       ulList.append(liList)
-   //    console.log(ulList)
       output.append(ulList)
 
       clearInput()
    } else {
-      alert("Por favor, digite um nome")
+      alert("Por favor, informe um item")
    }
 }
 

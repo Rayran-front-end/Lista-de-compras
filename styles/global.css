@@ -102,14 +102,15 @@ ul {
     display: grid;
 }
 
-@media (max-width:23.4375rem) {
+@media (max-width:25.4375rem) {
     #container {
-        width: 23rem;
+        width: 100%;
         margin: 0 auto;
     }
 
     h1 {
         font-size: 1rem;
+        font-weight: bolder;
     }
 
     main {
@@ -123,13 +124,13 @@ ul {
 
             & input {
                 max-width: 100%;
-                width: 326px;
+                width: 360px;
                 height: 44px;
             }
 
             & button {
                 max-width: 100%;
-                width: 326px;
+                width: 360px;
                 height: 44px;
             }
         }
