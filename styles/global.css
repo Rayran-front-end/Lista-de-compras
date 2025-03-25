@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    /* background */
+   --background-primary: #F4F5FB;
+   --background-secondary: #FFFFFF;
+
+    /* Color */
+    --color-brand: #CA3884;
+    --color-brand-hover: #A52C6B;
+    --color-danger: #C93847;
+
+    /* content */
+    --content-primary: #080B12;
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+    --always-white: #FFFFFF;
+
+    /* Border */
+    --border-primary: #D1D5DB;
+    --border-hover: #B9C2D0;
+    
+    /* fonte */
+    --ff-inter: "Inter", sans-serif; ;
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--background-primary);
+    font-family: var(--ff-inter);
+}
+
+main {
+    max-width: 70%;
+    margin-inline: auto;
+}
+
+a {
+    color: var(--color-brand);
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--content-primary);
+    font-size: 2rem;
+}
+
+input {
+    width: 451px;
+    height: 44px;
+    padding-left: 1rem;
+
+    border-radius: 12px;
+    border: 1px solid var(--border-primary);
+}
+
+input::placeholder {
+    color: var(--content-tertiary);
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+
+    border-radius: 6px;
+}
+
+button {
+    width: 160px;
+    height: 44px;
+
+    border-radius: 12px;
+    background-color: var(--color-brand);
+    color: var(--always-white);
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-brand-hover);
+    outline: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+

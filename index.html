@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <img src="icons/logo.svg" class="logo-icon" alt="">
+    </header>
+    <main>
+       <a href="#"><img src="icons/link button.svg" alt=""></a>
+       <h1>Compras da semana</h1>
+
+       <article>
+        <div class="add-itens grid">
+          <form class="flex">
+            <input type="text" id="adding" placeholder="Adicione um item">
+            <button id="enviar">Adicionar item</button>
+          </form>
+          <div class="output">
+            <!--<ul class="list-itens flex">
+                 <li class="flex">
+                    <div class="itens flex">
+                        <input type="checkbox" name="item-check" id="item-check">
+                        <span>Item</span>
+                    </div>
+                    <img src="icons/lixeira.svg" alt="">
+                 </li> 
+                <div class="remove flex">
+                    <div class="flex">
+                        <img src="icons/atencao.svg" alt=""><span>O item foi removido da lista</span>
+                    </div>
+                    <img src="icons/delete.svg" alt="">
+                </div>
+            </ul>-->
+          </div>
+        </div>
+       </article>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
