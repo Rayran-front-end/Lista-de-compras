@@ -96,11 +96,3 @@
         }
     }
 }
-
-@media (max-width:28.4375rem) {
-    #container {
-        max-width: 100%;
-        width: 100%;
-        margin: 0 auto;
-    }
-}
