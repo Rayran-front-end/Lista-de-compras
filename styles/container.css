@@ -97,6 +97,10 @@
     }
 }
 
-/* @media screen(width <) {
-    
-} */
+@media (max-width:23.4375rem) {
+    /* #container {
+        max-width: 10rem;
+        width: 50%;
+        margin: 0 auto;
+    } */
+}
