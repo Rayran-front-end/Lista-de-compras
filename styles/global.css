@@ -104,6 +104,11 @@ ul {
 
 @media (max-width:26rem) {
 
+    body,
+    html {
+        overflow: hidden;
+    }
+
     #container {
         max-width: 23rem;
         width: 100%;
